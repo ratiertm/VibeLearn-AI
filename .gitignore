@@ -1,3 +1,9 @@
 titlecard_variantA.png
 Global_Service_Plan/
 
+# Python
+worldmodel-env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
