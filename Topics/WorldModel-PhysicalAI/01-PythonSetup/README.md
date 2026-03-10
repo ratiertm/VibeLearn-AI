@@ -53,16 +53,16 @@ pip install torch numpy matplotlib jupyter
 
 ## 노트북 구성
 
-### 01_environment_setup.ipynb
+### [01_environment_setup.ipynb](examples/01_environment_setup.ipynb)
 - PyTorch, NumPy, Matplotlib 버전 확인
 - MPS (Mac GPU) 사용 가능 여부 확인
 
-### 02_numpy_sensor_data.ipynb
+### [02_numpy_sensor_data.ipynb](examples/02_numpy_sensor_data.ipynb)
 - 5개 센서 데이터를 NumPy로 직접 생성 (하드코딩)
 - 각 센서별 개별 시각화 + 통합 대시보드
 - **시나리오**: 정면에 빨간 장애물, 오른쪽에서 소리
 
-### 03_sensor_simulator.ipynb
+### [03_sensor_simulator.ipynb](examples/03_sensor_simulator.ipynb)
 - `Sensor` 기본 클래스 + 5개 하위 클래스 구현
 - `SensorManager`로 통합 관리
 - 3가지 시나리오별 시뮬레이션 및 대시보드 생성

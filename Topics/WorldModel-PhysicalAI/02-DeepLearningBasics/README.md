@@ -24,7 +24,7 @@ M5: 5개 센서별 Encoder (VLM + LLM + 3종)
 
 ## 노트북 구성
 
-### 01_tensor_operations.ipynb
+### [01_tensor_operations.ipynb](examples/01_tensor_operations.ipynb)
 - 텐서 생성 4가지 방법 (직접, NumPy변환, 랜덤, 특수)
 - M1 센서 데이터 → 텐서 변환 (카메라: HWC→CHW)
 - 행렬 연산 + reshape (신경망 핵심)
@@ -33,13 +33,13 @@ M5: 5개 센서별 Encoder (VLM + LLM + 3종)
 - 자동 미분: x² 기울기 + 거리→위험도 선형 학습
 - nn.Module로 신경망 만들기
 
-### 02_mnist_classifier.ipynb
+### [02_mnist_classifier.ipynb](examples/02_mnist_classifier.ipynb)
 - MNIST 60,000장 로드 + CNN 모델 정의
 - Conv(32) → Pool → Conv(64) → Pool → FC(128) → FC(10)
 - 5 에포크 학습: **99.0% 정확도**
 - 예측 시각화 + Conv1 특징 맵 시각화
 
-### 03_image_feature_extractor.ipynb
+### [03_image_feature_extractor.ipynb](examples/03_image_feature_extractor.ipynb)
 - M1 CameraSensor로 3클래스 이미지 600장 생성 (가까움/중간/멀리)
 - CameraEncoder: (3,64,64) → Conv³ → FC → (16,)
 - 30 에포크 학습: **100% 정확도**
